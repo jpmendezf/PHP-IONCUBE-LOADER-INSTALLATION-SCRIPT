@@ -18,7 +18,7 @@ l=7.4
 
 cd /home/$whoami
 
-apt install wget
+apt install wget -y
 
 wget https://downloads.ioncube.com/loader_downloads/ioncube_loaders_lin_x86-64.tar.gz
 
