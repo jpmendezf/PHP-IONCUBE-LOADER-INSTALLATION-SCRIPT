@@ -16,7 +16,7 @@ k=7.3
 l=7.4
 
 
-cd /home/$whoami
+cd /home/
 
 apt install wget -y
 
@@ -121,6 +121,8 @@ else
    echo "None of the condition met"
 fi
 
+cd /home/
+rm -rf ioncube_loaders_lin_x86-64.tar.gz
 
 #ioncube_loader_installation
 
